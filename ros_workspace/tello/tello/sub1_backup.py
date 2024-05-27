@@ -29,8 +29,7 @@ class ImageSubscriberDetectedPublisher(Node):
         
         self.cv_bridge = CvBridge()
         #self.subscription  # prevent unused variable warning
-        self.fourcc = cv2.VideoWriter_fourcc(*'mp4v')
-        self.video = cv2.VideoWriter('~/output.mp4',fourcc,20.0,(640,480))
+        
         self.image=None
         
     def detection(self,frame):
@@ -43,25 +42,24 @@ class ImageSubscriberDetectedPublisher(Node):
         self.get_logger().info('I saw an image')
         image = self.cv_bridge.imgmsg_to_cv2(img,'bgr8')
         self.image = self.detection(image)
-        
         #cv2.imshow("webcam",image)
         #cv2.waitKey(10)
         
     def timer_callback(self):
-        self.publisher_.publish(self.cv_bridge.cv2_to_imgmsg(np.array(self.image), 'bgr8'))
-        self.video.write(np.array(self.image))
+        self.publisher_.publish(self.cv_bridge.cv2_to_imgmsg(self.image, 'bgr8'))
+        
     
         
+ 
+    
 def main(args=None):
     rclpy.init(args=args)
     image_subscriber = ImageSubscriberDetectedPublisher('camera_subscriber_pub_detected')
     rclpy.spin(image_subscriber)
-    image_subscriber.video.release()
     # Destroy the node explicitly
     # (optional - otherwise it will be done automatically
     # when the garbage collector destroys the node object)
     image_subscriber.destroy_node()
-    
     rclpy.shutdown()
 
 
