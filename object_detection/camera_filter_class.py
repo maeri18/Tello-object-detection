@@ -39,7 +39,7 @@ def filter_detection(classes_needed):
     fps    = cap.get(cv2.CAP_PROP_FPS)
 
 #ret is a boolean value that we will use to verify if we successfully read a frame.
-#We will alos use it for the while loop
+#We will also use it for the while loop
     ret = True
 
 #encoding format of the output video. Here, mp4
