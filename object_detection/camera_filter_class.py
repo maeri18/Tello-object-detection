@@ -14,7 +14,7 @@ classes = model.names
 def filter_detection(classes_needed):
     """This function takes the a list of the desired classes to filtrate, and the path to the video,
        and performs a detection of only the objects from these classes in the video"""
-#definition of the miniml probability required to detect an object    
+#definition of the minimal probability required to detect an object    
     minimum_prob = 0.4     
 #mapping class  names with their integer ID in the classes dictionary. We do that because the model.track method takes integer ID to know classes.
     classes_ID = [k for k,v in classes.items() if v in classes_needed]
