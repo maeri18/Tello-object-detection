@@ -77,10 +77,15 @@ class ImageSubscriberDetectedPublisher(Node):
     
         
 def main(args=None):
+    #Intialization ROS communication 
     rclpy.init(args=args)
     
     image_subscriber = ImageSubscriberDetectedPublisher('camera_subscriber_pub_detected')
+
+    #execute the callback function until the global executor is shutdown
     rclpy.spin(image_subscriber)
+
+    #release the video output writer.
     image_subscriber.video.release()
     image_subscriber.destroy_node()
     
