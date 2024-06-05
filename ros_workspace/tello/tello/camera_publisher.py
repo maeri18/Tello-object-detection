@@ -49,8 +49,14 @@ class ImagePublisher(Node):
         self.i +=1
 
 def main(args=None):
+    #Intialization ROS communication 
     rclpy.init(args=args)
     image_publisher = ImagePublisher('camera_1_pub')
+
+    #execute the callback function until the global executor is shutdown
     rclpy.spin(image_publisher)
+
+    #destroy the node. It is not mandatory, since the garbage collection can do it
     image_publisher.destroy_node()
+    
     rclpy.shutdown()        
