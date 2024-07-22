@@ -1,4 +1,4 @@
-# *This file contains notes on the knowledge I acquired throughout this project*
+*This file contains notes on the knowledge I acquired throughout this project*
 # YOLOv8
 
 # ROS
