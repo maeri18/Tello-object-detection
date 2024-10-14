@@ -1,0 +1,29 @@
+[0.767s] Invoking command in '/home/maeri/workspace/src/tello': CONDA_PROMPT_MODIFIER=(pyenv) PYTHONPATH=/home/maeri/workspace/build/tello/prefix_override:/home/maeri/workspace/install/tello/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tello build --build-base /home/maeri/workspace/build/tello/build install --record /home/maeri/workspace/build/tello/install.log --single-version-externally-managed install_data
+[1.058s] running egg_info
+[1.059s] writing ../../build/tello/tello.egg-info/PKG-INFO
+[1.059s] writing dependency_links to ../../build/tello/tello.egg-info/dependency_links.txt
+[1.059s] writing entry points to ../../build/tello/tello.egg-info/entry_points.txt
+[1.059s] writing requirements to ../../build/tello/tello.egg-info/requires.txt
+[1.060s] writing top-level names to ../../build/tello/tello.egg-info/top_level.txt
+[1.061s] reading manifest file '../../build/tello/tello.egg-info/SOURCES.txt'
+[1.062s] adding license file 'LICENSE'
+[1.062s] writing manifest file '../../build/tello/tello.egg-info/SOURCES.txt'
+[1.063s] running build
+[1.063s] running build_py
+[1.063s] copying tello/sub1.py -> /home/maeri/workspace/build/tello/build/lib/tello
+[1.066s] running install
+[1.066s] running install_lib
+[1.066s] copying /home/maeri/workspace/build/tello/build/lib/tello/sub1.py -> /home/maeri/workspace/install/tello/lib/python3.10/site-packages/tello
+[1.066s] byte-compiling /home/maeri/workspace/install/tello/lib/python3.10/site-packages/tello/sub1.py to sub1.cpython-310.pyc
+[1.066s] running install_data
+[1.066s] running install_egg_info
+[1.069s] removing '/home/maeri/workspace/install/tello/lib/python3.10/site-packages/tello-0.0.0-py3.10.egg-info' (and everything under it)
+[1.069s] Copying ../../build/tello/tello.egg-info to /home/maeri/workspace/install/tello/lib/python3.10/site-packages/tello-0.0.0-py3.10.egg-info
+[1.070s] running install_scripts
+[1.092s] Installing camera_pub script to /home/maeri/workspace/install/tello/lib/tello
+[1.092s] Installing camera_sub script to /home/maeri/workspace/install/tello/lib/tello
+[1.092s] Installing detected_pub script to /home/maeri/workspace/install/tello/lib/tello
+[1.092s] Installing listener script to /home/maeri/workspace/install/tello/lib/tello
+[1.093s] Installing talker script to /home/maeri/workspace/install/tello/lib/tello
+[1.093s] writing list of installed files to '/home/maeri/workspace/build/tello/install.log'
+[1.117s] Invoked command in '/home/maeri/workspace/src/tello' returned '0': CONDA_PROMPT_MODIFIER=(pyenv) PYTHONPATH=/home/maeri/workspace/build/tello/prefix_override:/home/maeri/workspace/install/tello/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tello build --build-base /home/maeri/workspace/build/tello/build install --record /home/maeri/workspace/build/tello/install.log --single-version-externally-managed install_data

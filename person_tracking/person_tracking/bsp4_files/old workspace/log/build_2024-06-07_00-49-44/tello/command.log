@@ -1,0 +1,6 @@
+Invoking command in '/home/maeri/workspace/build/tello': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(pyenv) /usr/bin/cmake /home/maeri/workspace/src/tello -DCMAKE_INSTALL_PREFIX=/home/maeri/workspace/install/tello
+Invoked command in '/home/maeri/workspace/build/tello' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(pyenv) /usr/bin/cmake /home/maeri/workspace/src/tello -DCMAKE_INSTALL_PREFIX=/home/maeri/workspace/install/tello
+Invoking command in '/home/maeri/workspace/build/tello': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(pyenv) /usr/bin/cmake --build /home/maeri/workspace/build/tello -- -j4 -l4
+Invoked command in '/home/maeri/workspace/build/tello' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(pyenv) /usr/bin/cmake --build /home/maeri/workspace/build/tello -- -j4 -l4
+Invoking command in '/home/maeri/workspace/build/tello': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(pyenv) /usr/bin/cmake --install /home/maeri/workspace/build/tello
+Invoked command in '/home/maeri/workspace/build/tello' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(pyenv) /usr/bin/cmake --install /home/maeri/workspace/build/tello

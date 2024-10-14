@@ -1,0 +1,42 @@
+[0.009s] Invoking command in '/home/maeri/workspace/build/tello': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(pyenv) /usr/bin/cmake /home/maeri/workspace/src/tello -DCMAKE_INSTALL_PREFIX=/home/maeri/workspace/install/tello
+[0.302s] -- The C compiler identification is GNU 11.4.0
+[0.501s] -- The CXX compiler identification is GNU 11.4.0
+[0.514s] -- Detecting C compiler ABI info
+[0.613s] -- Detecting C compiler ABI info - done
+[0.623s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.623s] -- Detecting C compile features
+[0.624s] -- Detecting C compile features - done
+[0.628s] -- Detecting CXX compiler ABI info
+[0.744s] -- Detecting CXX compiler ABI info - done
+[0.753s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.754s] -- Detecting CXX compile features
+[0.754s] -- Detecting CXX compile features - done
+[0.757s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.908s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.024s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.123s] -- Added test 'lint_cmake' to check CMake code style
+[1.126s] -- Added test 'xmllint' to check XML markup files
+[1.128s] -- Configuring done
+[1.131s] -- Generating done
+[1.132s] -- Build files have been written to: /home/maeri/workspace/build/tello
+[1.138s] Invoked command in '/home/maeri/workspace/build/tello' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(pyenv) /usr/bin/cmake /home/maeri/workspace/src/tello -DCMAKE_INSTALL_PREFIX=/home/maeri/workspace/install/tello
+[1.140s] Invoking command in '/home/maeri/workspace/build/tello': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(pyenv) /usr/bin/cmake --build /home/maeri/workspace/build/tello -- -j4 -l4
+[1.190s] Invoked command in '/home/maeri/workspace/build/tello' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(pyenv) /usr/bin/cmake --build /home/maeri/workspace/build/tello -- -j4 -l4
+[1.232s] Invoking command in '/home/maeri/workspace/build/tello': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(pyenv) /usr/bin/cmake --install /home/maeri/workspace/build/tello
+[1.243s] -- Install configuration: ""
+[1.243s] -- Installing: /home/maeri/workspace/install/tello/share/ament_index/resource_index/package_run_dependencies/tello
+[1.243s] -- Installing: /home/maeri/workspace/install/tello/share/ament_index/resource_index/parent_prefix_path/tello
+[1.244s] -- Installing: /home/maeri/workspace/install/tello/share/tello/environment/ament_prefix_path.sh
+[1.244s] -- Installing: /home/maeri/workspace/install/tello/share/tello/environment/ament_prefix_path.dsv
+[1.244s] -- Installing: /home/maeri/workspace/install/tello/share/tello/environment/path.sh
+[1.244s] -- Installing: /home/maeri/workspace/install/tello/share/tello/environment/path.dsv
+[1.244s] -- Installing: /home/maeri/workspace/install/tello/share/tello/local_setup.bash
+[1.245s] -- Installing: /home/maeri/workspace/install/tello/share/tello/local_setup.sh
+[1.245s] -- Installing: /home/maeri/workspace/install/tello/share/tello/local_setup.zsh
+[1.245s] -- Installing: /home/maeri/workspace/install/tello/share/tello/local_setup.dsv
+[1.245s] -- Installing: /home/maeri/workspace/install/tello/share/tello/package.dsv
+[1.245s] -- Installing: /home/maeri/workspace/install/tello/share/ament_index/resource_index/packages/tello
+[1.246s] -- Installing: /home/maeri/workspace/install/tello/share/tello/cmake/telloConfig.cmake
+[1.246s] -- Installing: /home/maeri/workspace/install/tello/share/tello/cmake/telloConfig-version.cmake
+[1.246s] -- Installing: /home/maeri/workspace/install/tello/share/tello/package.xml
+[1.248s] Invoked command in '/home/maeri/workspace/build/tello' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(pyenv) /usr/bin/cmake --install /home/maeri/workspace/build/tello

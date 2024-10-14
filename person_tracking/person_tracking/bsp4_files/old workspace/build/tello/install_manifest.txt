@@ -1,0 +1,15 @@
+/home/maeri/workspace/install/tello/share/ament_index/resource_index/package_run_dependencies/tello
+/home/maeri/workspace/install/tello/share/ament_index/resource_index/parent_prefix_path/tello
+/home/maeri/workspace/install/tello/share/tello/environment/ament_prefix_path.sh
+/home/maeri/workspace/install/tello/share/tello/environment/ament_prefix_path.dsv
+/home/maeri/workspace/install/tello/share/tello/environment/path.sh
+/home/maeri/workspace/install/tello/share/tello/environment/path.dsv
+/home/maeri/workspace/install/tello/share/tello/local_setup.bash
+/home/maeri/workspace/install/tello/share/tello/local_setup.sh
+/home/maeri/workspace/install/tello/share/tello/local_setup.zsh
+/home/maeri/workspace/install/tello/share/tello/local_setup.dsv
+/home/maeri/workspace/install/tello/share/tello/package.dsv
+/home/maeri/workspace/install/tello/share/ament_index/resource_index/packages/tello
+/home/maeri/workspace/install/tello/share/tello/cmake/telloConfig.cmake
+/home/maeri/workspace/install/tello/share/tello/cmake/telloConfig-version.cmake
+/home/maeri/workspace/install/tello/share/tello/package.xml

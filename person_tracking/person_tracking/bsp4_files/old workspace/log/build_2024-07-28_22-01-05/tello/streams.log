@@ -1,0 +1,26 @@
+[0.890s] Invoking command in '/home/maeri/workspace/src/tello': PYTHONPATH=/home/maeri/workspace/build/tello/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maeri/workspace/install/tello/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tello build --build-base /home/maeri/workspace/build/tello/build install --record /home/maeri/workspace/build/tello/install.log --single-version-externally-managed install_data
+[1.262s] running egg_info
+[1.263s] writing ../../build/tello/tello.egg-info/PKG-INFO
+[1.263s] writing dependency_links to ../../build/tello/tello.egg-info/dependency_links.txt
+[1.263s] writing entry points to ../../build/tello/tello.egg-info/entry_points.txt
+[1.263s] writing requirements to ../../build/tello/tello.egg-info/requires.txt
+[1.263s] writing top-level names to ../../build/tello/tello.egg-info/top_level.txt
+[1.266s] reading manifest file '../../build/tello/tello.egg-info/SOURCES.txt'
+[1.267s] adding license file 'LICENSE'
+[1.269s] writing manifest file '../../build/tello/tello.egg-info/SOURCES.txt'
+[1.270s] running build
+[1.270s] running build_py
+[1.270s] running install
+[1.271s] running install_lib
+[1.272s] running install_data
+[1.272s] running install_egg_info
+[1.275s] removing '/home/maeri/workspace/install/tello/lib/python3.10/site-packages/tello-0.0.0-py3.10.egg-info' (and everything under it)
+[1.275s] Copying ../../build/tello/tello.egg-info to /home/maeri/workspace/install/tello/lib/python3.10/site-packages/tello-0.0.0-py3.10.egg-info
+[1.277s] running install_scripts
+[1.308s] Installing camera_pub script to /home/maeri/workspace/install/tello/lib/tello
+[1.309s] Installing camera_sub script to /home/maeri/workspace/install/tello/lib/tello
+[1.309s] Installing detected_pub script to /home/maeri/workspace/install/tello/lib/tello
+[1.309s] Installing listener script to /home/maeri/workspace/install/tello/lib/tello
+[1.309s] Installing talker script to /home/maeri/workspace/install/tello/lib/tello
+[1.309s] writing list of installed files to '/home/maeri/workspace/build/tello/install.log'
+[1.344s] Invoked command in '/home/maeri/workspace/src/tello' returned '0': PYTHONPATH=/home/maeri/workspace/build/tello/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maeri/workspace/install/tello/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tello build --build-base /home/maeri/workspace/build/tello/build install --record /home/maeri/workspace/build/tello/install.log --single-version-externally-managed install_data

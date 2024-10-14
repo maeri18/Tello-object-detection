@@ -1,0 +1,4 @@
+Invoking command in '/home/maeri/workspace/build/person_tracker': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/maeri/workspace/build/person_tracker -- -j4 -l4
+Invoked command in '/home/maeri/workspace/build/person_tracker' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/maeri/workspace/build/person_tracker -- -j4 -l4
+Invoking command in '/home/maeri/workspace/build/person_tracker': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/maeri/workspace/build/person_tracker
+Invoked command in '/home/maeri/workspace/build/person_tracker' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/maeri/workspace/build/person_tracker

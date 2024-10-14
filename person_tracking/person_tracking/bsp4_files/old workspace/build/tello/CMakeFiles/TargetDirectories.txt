@@ -1,0 +1,9 @@
+/home/maeri/workspace/build/tello/CMakeFiles/uninstall.dir
+/home/maeri/workspace/build/tello/CMakeFiles/tello_uninstall.dir
+/home/maeri/workspace/build/tello/CMakeFiles/test.dir
+/home/maeri/workspace/build/tello/CMakeFiles/edit_cache.dir
+/home/maeri/workspace/build/tello/CMakeFiles/rebuild_cache.dir
+/home/maeri/workspace/build/tello/CMakeFiles/list_install_components.dir
+/home/maeri/workspace/build/tello/CMakeFiles/install.dir
+/home/maeri/workspace/build/tello/CMakeFiles/install/local.dir
+/home/maeri/workspace/build/tello/CMakeFiles/install/strip.dir
